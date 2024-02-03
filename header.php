@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | PG Life</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="navbar">
+
+    <div class="navbar-logo border">
+      <div class="logo">
+        <img src="img/logo.png"height="40px"/>
+      </div>
+    </div>
+
+    <div class="search-engine">
+      <select class="search-box">
+        <option>All</option></select>
+      <input placeholder="Enter your city to Search for PG" class="search-input"/>
+      <div class="search-icon">
+        <button id="abc"type="Submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        
+      </div>
+    
+    </div>
+
+
+    <div class="nav-icon-signup border">
+    <i class="fa-solid fa-user-plus"></i>
+    <div class="nav-signup">
+      <button class="signup-btn"type="submit">
+        <a href="register_form.php">Signup</a></button>
+      </div>
+    </div>
+
+    <div class="nav-icon-login border">
+    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+    <div class="nav-Login ">Login</div>
+    </div>
+
+  </div>s
+  
+  
+</body>
+</html>
+    
+    
+    

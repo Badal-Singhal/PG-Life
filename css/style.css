@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+.navbar{
+    width:100%;
+    height:66px;
+    background-color:grey;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position:fixed;
+
+}
+
+.navbar-logo{
+    height:64px;
+    width: 108px;
+}
+
+.border{
+    border: solid 1.5px transparent;
+}
+
+.border:hover{
+    border: solid 1.5px white;
+}
+
+.logo{
+    height:64px;
+}
+.nav-signup{
+    margin:5px;
+    padding:10px;
+    color: white;
+    
+    
+}
+.signup-btn{
+    color: white;
+}
+.nav-Login{
+    margin:5px;
+    padding:10px;
+   
+}
+.nav-icon-login{
+    display: flex;
+    align-items: center;
+}
+.nav-icon-signup{
+    
+    display: flex;
+    align-items: center;
+}
+
+.search-engine{
+    display:flex;
+    justify-content: space-evenly;
+    width:600px;
+    height:40px;
+    background-color: beige;
+    margin-right: 400px;
+}
+.search-box{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#abc{
+    width:50px;
+    Height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 208, 0, 0.925);
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:rgba(34, 30, 30, 0.76);
+}
+.search-input{
+    color:black;
+    font-size: 1rem;
+    width:100%;
+}
+
+.theme{
+    width:100%;
+}
+
+
+
+
+
+
+
